@@ -9,7 +9,7 @@ Scipts to setup NAS (Network Attached Storage) on Debian 12 with ZFS and Active 
 - (Optional) Some basic knowledge of Active Directory
 
 ### What Scripts Do
-- Setup all essential services on the system :
+Setup all essential services on the system :
  - Firewall
  - ZFS
  - Samba
