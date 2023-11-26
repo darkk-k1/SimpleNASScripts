@@ -15,3 +15,7 @@ Setup all essential services on the system :
  - Samba
  - Alerts/Notifications
  - And more
+
+
+### How to use?
+Simply download or copy setup.sh (from root directory from github repo) and run it on fresh Debian 12
