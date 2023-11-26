@@ -7,6 +7,8 @@ Scipts to setup NAS (Network Attached Storage) on Debian 12 with ZFS and Active 
 - Clean Debian 12 Install
 - Some basic knowledge of linux
 - (Optional) Some basic knowledge of Active Directory
+- Works on Physical Machine or in Virtual Machine
+- Doesnt work in LXC
 
 ### What Scripts Do
 Setup all essential services on the system :
