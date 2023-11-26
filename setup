@@ -2,5 +2,18 @@
 
 mkdir /opt/snass
 
+mkdir /tmp/snass
+
+cd /tmp/snass
+
+wget "https://github.com/darkk-k1/SimpleNASScripts/archive/refs/heads/main.zip"
+
+apt update
+
+apt install zip
+
+unzip SimpleNASScripts-main.zip
+
+move -rvf SimpleNASScripts-main/SimpleNASScripts-main/* /opt/snass/.
 
 exit 0
