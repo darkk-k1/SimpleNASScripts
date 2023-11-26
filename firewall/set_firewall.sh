@@ -10,10 +10,9 @@
 
 /usr/sbin/iptables -A INPUT -i lo -j ACCEPT
 /usr/sbin/iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
 /usr/sbin/iptables -A INPUT -p icmp -s 0.0.0.0/0 -d 0.0.0.0/0 -j ACCEPT
 
-#/usr/sbin/iptables -A INPUT -s <ip> -j ACCEPT
-#/usr/sbin/iptables -A INPUT -p <protocol> --dport <port> -j ACCEPT
 /usr/sbin/iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
 
