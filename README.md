@@ -14,4 +14,4 @@ Setup all essential services on the system :
  - ZFS
  - Samba
  - Alerts/Notifications
- -  
+ - And more
